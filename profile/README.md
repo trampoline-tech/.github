@@ -10,9 +10,9 @@ We build the operational infrastructure behind **Trampoline** (B2B wholesale) an
 
 - **Purchase Order & EDD Tracker** - tracks every SKU across production phases, handover dates, and estimated delivery windows per purchase order line
 - **Cargonaut** - internal container planning tool for allocating SKUs to FCL/LCL shipments, managing vessel schedules, freight forwarder rates, and shipping line comparisons
-- **Inventory & Order Management** - real-time stock control and order allocation across wholesale and DTC channels
+- **Inventory & Order Management** - real time stock control and order allocation across wholesale and DTC channels
 - **Fableroom Backend** - powers the B2C store including Shopify inventory sync, order webhooks, and fulfilment flows
-- **Supplier & Seller Portals** - vendor-facing interfaces for production updates and order visibility
+- **Supplier & Seller Portals** - vendor facing interfaces for production updates and order visibility
 - **QC & Tracking** - quality control workflows and shipment tracking integrated with carriers (DHL, FedEx, UPS, etc.)
 
 ## Stack
