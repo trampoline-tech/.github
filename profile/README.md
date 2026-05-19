@@ -23,7 +23,7 @@ Django 5.1 · PostgreSQL · AWS (RDS + ECS Fargate) · Django REST Framework · 
 
 | Brand | Channel | Market |
 |---|---|---|
-| [Fableroom](https://fableroom.co.uk) | B2C DTC | UK consumers |
+| [Fableroom](https://fableroom.com) | B2C DTC | UK consumers |
 | [Trampoline](https://trampolinestore.uk) | B2B wholesale | Depracated for new B2B Customers |
 
 ---
