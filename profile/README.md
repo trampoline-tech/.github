@@ -1,6 +1,6 @@
-# Trampoline Tech
+# FableRoom
 
-We build the operational infrastructure behind **Trampoline** (B2B wholesale) and **Fableroom** (B2C) - two home furnishings brands shipping from artisan manufacturing hubs in Jodhpur and Bhadohi, India to customers and trade buyers in the UK.
+We build the operational infrastructure behind **Fableroom** (B2C) - home furnishing & lifestyle brand shipping from artisan manufacturing hubs in Jodhpur and Bhadohi, India to customers and trade buyers in the UK.
 
 ## What we're building
 
@@ -24,7 +24,6 @@ Django 5.1 · PostgreSQL · AWS (RDS + ECS Fargate) · Django REST Framework · 
 | Brand | Channel | Market |
 |---|---|---|
 | [Fableroom](https://fableroom.com) | B2C DTC | UK consumers |
-| [Trampoline](https://trampolinestore.uk) | B2B wholesale | Depracated for new B2B Customers |
 
 ---
 
