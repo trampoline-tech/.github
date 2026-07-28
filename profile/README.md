@@ -12,7 +12,7 @@ We build the operational infrastructure behind **Fableroom** (B2C) - home furnis
 - **Cargonaut** - internal container planning tool for allocating SKUs to FCL/LCL shipments, managing vessel schedules, freight forwarder rates, and shipping line comparisons
 - **Inventory & Order Management** - real time stock control and order allocation across wholesale and DTC channels
 - **Fableroom Backend** - powers the B2C store including Shopify inventory sync, order webhooks, and fulfilment flows
-- **Supplier & Seller Portals** - vendor facing interfaces for production updates and order visibility
+- **Vendor Portal** - vendor facing interfaces for production updates and order visibility
 - **QC & Tracking** - quality control workflows and shipment tracking integrated with carriers (DHL, FedEx, UPS, etc.)
 
 ## Stack
