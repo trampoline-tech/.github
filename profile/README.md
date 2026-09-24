@@ -1,29 +1,37 @@
 # FableRoom
 
-We build the operational infrastructure behind **Fableroom** (B2C) - home furnishing & lifestyle brand shipping from artisan manufacturing hubs in Jodhpur and Bhadohi, India to customers and trade buyers in the UK.
+We build the operational infrastructure behind **[Fableroom](https://fableroom.com)**, a home furnishing and lifestyle brand shipping from artisan manufacturing hubs in Jodhpur and Bhadohi, India to customers in the UK.
 
-## What we're building
+## What we build
 
-**Supply chain, end to end.** Our platform handles the full journey from purchase order to customer doorstep, vendor management, SKU level production tracking, container planning, vessel scheduling, UK warehouse intake, and last-mile order fulfilment.
+Supply chain, end to end: purchase order to customer doorstep. Vendor management, SKU-level production tracking, container planning, UK warehouse intake and last-mile fulfilment.
 
-### Core systems
+| System | What it does |
+|---|---|
+| Purchase Order & EDD Tracker | Tracks every SKU across production phases, handover dates and delivery windows per PO line |
+| Cargonaut | Container planning: allocating SKUs to FCL/LCL shipments, vessel schedules, freight rates |
+| Order & Inventory Management | Stock control, order allocation and backorders for the Shopify store |
+| Ops Hub & Jarvis | Internal dashboards for operations, allocation, launches and quality control |
+| Vendor Portal | Vendor-facing production updates, purchase orders and order visibility |
+| QC & Tracking | Quality control workflows and carrier tracking with Shopify fulfilment updates |
+| Mobile apps | Native Fableroom shopping apps for Android and iOS |
 
-- **Purchase Order & EDD Tracker** - tracks every SKU across production phases, handover dates, and estimated delivery windows per purchase order line
-- **Cargonaut** - internal container planning tool for allocating SKUs to FCL/LCL shipments, managing vessel schedules, freight forwarder rates, and shipping line comparisons
-- **Inventory & Order Management** - real time stock control and order allocation across wholesale and DTC channels
-- **Fableroom Backend** - powers the B2C store including Shopify inventory sync, order webhooks, and fulfilment flows
-- **Vendor Portal** - vendor facing interfaces for production updates and order visibility
-- **QC & Tracking** - quality control workflows and shipment tracking integrated with carriers (DHL, FedEx, UPS, etc.)
+## Active repositories
+
+| Repo | What it is | Stack |
+|---|---|---|
+| `trampoline` | Backend API, Ops Hub, agents and scheduled jobs | Django, PostgreSQL |
+| `admin-dashboard-frontend` | Jarvis, the internal admin dashboard | Next.js |
+| `supplier-portal` | Vendor Portal frontend | Next.js |
+| `fableroom-app-android` | Fableroom Android app | Kotlin, Jetpack Compose |
+| `fableroom-app-ios` | Fableroom iOS app | SwiftUI |
+| `trampoline-terraform` | AWS infrastructure | Terraform |
+
+Repositories prefixed `DEPRECATED-` are retired and kept for reference only.
 
 ## Stack
 
-Django 5.1 · PostgreSQL · AWS (RDS + ECS Fargate) · Django REST Framework · Alpine.js
-
-## Brands
-
-| Brand | Channel | Market |
-|---|---|---|
-| [Fableroom](https://fableroom.com) | B2C DTC | UK consumers |
+Django 5.1 · Django REST Framework · PostgreSQL · Next.js · Kotlin · SwiftUI · Shopify · AWS (ECS Fargate, RDS, EC2, S3)
 
 ---
 
