@@ -20,9 +20,9 @@ Supply chain, end to end: purchase order to customer doorstep. Vendor management
 
 | Repo | What it is | Stack |
 |---|---|---|
-| `trampoline` | Backend API, Ops Hub, agents and scheduled jobs | Django, PostgreSQL |
+| `trampoline` | Monorepo: backend API, Ops Hub, vendor onboarding, agents and scheduled jobs | Django, PostgreSQL |
 | `admin-dashboard-frontend` | Jarvis, the internal admin dashboard | Next.js |
-| `supplier-portal` | Vendor Portal frontend | Next.js |
+| `supplier-portal` | Vendor Portal: live orders and PO management (the rest of the portal lives in `trampoline`) | Next.js |
 | `fableroom-app-android` | Fableroom Android app | Kotlin, Jetpack Compose |
 | `fableroom-app-ios` | Fableroom iOS app | SwiftUI |
 | `trampoline-terraform` | AWS infrastructure | Terraform |
